@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(playlistbg.png);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Figtree', sans-serif;
+    min-height: 100vh;
+    animation: fadeIn 2s ease;
+}
+
+.pl-head{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#pl-img{
+    width: 40vh;
+    height: auto;
+    padding: 50px;
+}
+.pl-text{
+    color: white;
+    padding-top: 50px;
+}
+#pl-name{
+    font-size: 50px;
+}
+#pl-desc{
+    text-indent: 36px;
+    width: 200px;
+    max-height: 150px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+#char-count{
+    opacity: 50%;
+}
+.pl-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+iFrame{
+    width: 45vh;
+    height: 20vh;
+    padding: 25px;
+}
+
+/* ------------------------------------------------- */
+
+footer {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer-text {
+    font-size: 18px;
+    padding: 6.5px;
+}
+
+/* ------------------------------------------------- */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        filter: blur(15px);
+    }
+
+    to {
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
