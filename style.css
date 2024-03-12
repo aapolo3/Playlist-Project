@@ -41,14 +41,25 @@ body {
 }
 .pl-body{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center;  */
+}
+.search-area{
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-iFrame{
-    width: 45vh;
-    height: 20vh;
-    padding: 25px;
+#resultsContainer{
+    color: white;
+    font-size: 30px;
+}
+.added-songs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ------------------------------------------------- */
